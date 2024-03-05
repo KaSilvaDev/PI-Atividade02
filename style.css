@@ -1,0 +1,19 @@
+.div_orange {
+    background-color: #ffa500; width: 500px; height: 500px;
+}
+
+.div_lightGreen {
+    background-color: #adff2f; width: 50%; height: 50%;
+}
+
+.div_red {
+    color: #ffffff; background-color: #ff0000; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold ;
+}
+
+.div_lightBlue {
+    width: 50vw; height: 50vh; background-color: rgb(173, 216, 230);
+}
+
+.div_lightBlue div {
+    width: 75vw; height: 50%; background-color: rgb(255, 0, 0);
+}

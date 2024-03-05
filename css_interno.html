@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02 - CSS Interno</title>
+
+    <style>
+        .div_orange {
+            background-color: #ffa500; width: 500px; height: 500px;
+        }
+        
+        .div_lightGreen {
+            background-color: #adff2f; width: 50%; height: 50%;
+        }
+
+        .div_red {
+            color: #ffffff; background-color: #ff0000; font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold ;
+        }
+
+        .div_lightBlue {
+            width: 50vw; height: 50vh; background-color: rgb(173, 216, 230);
+        }
+
+        .div_lightBlue div {
+            width: 75vw; height: 50%; background-color: rgb(255, 0, 0);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="div_orange">
+        <div class="div_lightGreen">
+            <div class="div_red">
+                <p>Div vermelha</p>
+            </div>
+        </div>
+    </div>
+    <div class="div_lightBlue">
+        <div></div>
+    </div>
+</body>
+
+</html>
